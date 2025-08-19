@@ -10,9 +10,22 @@
 		5C06CA4C2E53F3FD00DE5D9D /* FuenteIdioma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuenteIdioma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5C06CA5D2E53F8F900DE5D9D /* Exceptions for "FuenteIdioma" folder in "FuenteIdioma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5C06CA4B2E53F3FD00DE5D9D /* FuenteIdioma */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5C06CA4E2E53F3FD00DE5D9D /* FuenteIdioma */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5C06CA5D2E53F8F900DE5D9D /* Exceptions for "FuenteIdioma" folder in "FuenteIdioma" target */,
+			);
 			path = FuenteIdioma;
 			sourceTree = "<group>";
 		};
@@ -254,6 +267,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuenteIdioma/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -281,6 +295,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuenteIdioma/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
