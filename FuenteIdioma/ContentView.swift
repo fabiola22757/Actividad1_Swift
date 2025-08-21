@@ -13,6 +13,7 @@ struct ContentView: View {
     let titulo: String = String(localized: "title")
     let descripcion: String = String(localized: "description")
     
+    ///
     var body: some View {
         VStack{
             Text(episodio)
@@ -25,6 +26,7 @@ struct ContentView: View {
         .font(.custom("starjedi", size: 16)) //fuente
         .background(Color.black) //color background
     }
+    ///
 }
 
 #Preview {
